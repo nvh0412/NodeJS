@@ -14,7 +14,7 @@ app.get('/twitter/:name', function(req, res){
 	var name = req.params.name;
 
 	options = {
-		protocol : "http:",
+		protocol : "https:",
 		host : "api.twitter.com",
 		pathname : "/1.1/statuses/user_timeline.json",
 		query : { screen_name: name, count: 10 }
