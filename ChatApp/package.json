@@ -1,0 +1,17 @@
+{
+  "name": "ChatApplication",
+  "version": "1.0.0",
+  "description": "This is mook project for all knowlegde which i had learned from CodeSchool",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HoaNV",
+  "license": "MIT",
+  "dependencies": {
+    "axon": "^2.0.2",
+    "express": "^4.13.2",
+    "redis": "^0.12.1",
+    "underscore": "^1.8.3"
+  }
+}
